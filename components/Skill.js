@@ -10,7 +10,7 @@ export default function Skill() {
         }}
         transition={{duration: 1}}
         whileInView={{opacity: 1,x: 0}}
-        src="http://via.placeholder.com/640x360"
+        src="https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg"
         className="rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
       
       />
