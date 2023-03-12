@@ -1,9 +1,7 @@
-import {defineField, defineType} from 'sanity'
-
-export default defineType({
-  name: 'pageInfo',
-  title: 'PageInfo',
-  type: 'document',
+export default {
+  name: "pageInfo",
+  title: "PageInfo",
+  type: "document",
   fields: [
     {
       name: "name",
@@ -13,6 +11,11 @@ export default defineType({
     {
       name: "role",
       title: "Role",
+      type: "string",
+    },
+    {
+      name: "heroImage",
+      title: "Image",
       type: "image",
       options: {
         hotspot: true,
@@ -44,7 +47,7 @@ export default defineType({
     {
       name: "address",
       title: "Address",
-      type: "string,"
+      type: "string"
     },
     {
       name: "socials",
@@ -53,4 +56,4 @@ export default defineType({
       of: [{ type: "reference", to: { type: "social" } }]
     },
   ],
-})
+};
