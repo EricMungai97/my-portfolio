@@ -9,11 +9,6 @@ import WorkExperience from '@/components/WorkExperience'
 import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import ContactMe from '@/components/ContactMe'
-import { fetchPageInfo } from '@/utils/fetchPageInfo'
-import { fetchExperience } from '@/utils/fetchExperience'
-import { fetchSocials } from '@/utils/fetchSocials'
-import { fetchProjects } from '@/utils/fetchProjects'
-import { fetchSkills } from '@/utils/fetchSkills'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -46,18 +41,3 @@ export default function Home({ experience, skills, projects, pageInfo, socials }
     </div>
   )
 };
-
-// export const getStaticProps = async () => {
-//   const pageInfo = await fetchPageInfo();
-//   const experience = await fetchExperience();
-//   const socials = await fetchSocials();
-//   const projects = await fetchProjects();
-//   const skills = await fetchSkills();
-
-//   return {
-//     props: {
-//       pageInfo, experience, socials, projects, skills
-//     }, revalidate: 10
-//   };
-// };
- 

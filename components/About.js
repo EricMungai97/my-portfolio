@@ -20,12 +20,14 @@ export default function About() {
           opacity: 1,
         }}
         viewport={{ once: true }}
-        src="https://placebeard.it/640x360"
+        src="https://cdn.sanity.io/images/kt8urt8e/production/9b735b840d55e2041c6467eee07108dbb9979255-1536x2048.jpg"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
       />
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font semibold">Here is a <span className="underline decoration-[#F7AB0A]/50">little</span>{" "} background</h4>
-        <p className="text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nunc eu odio ultricies efficitur. Curabitur iaculis quam in felis ultrices, sed laoreet mi ultricies. Aliquam bibendum euismod mi, a luctus turpis facilisis in. Integer bibendum luctus sapien, id ullamcorper ipsum sagittis ac. Vivamus semper nunc nibh, a suscipit enim ultricies in. Phasellus quis lectus vel eros sollicitudin vestibulum. Duis dapibus nulla sit amet augue fringilla, vel fringilla eros maximus. Sed blandit purus velit, at tincidunt purus aliquam vel. Vestibulum sodales molestie enim, vitae scelerisque orci suscipit vel. Fusce quis magna ut lacus sodales feugiat eget id ante. Aenean pharetra mi quis elit venenatis, vitae mollis dolor varius. Donec elementum blandit sem, ut euismod turpis consequat in. Suspendisse ullamcorper libero ut arcu finibus, at tempor mauris maximus.
+        <p className="text-base">Hello 👋, my name is Eric Kinuthia, and I am a full-stack software developer with a passion for creating innovative and dynamic web applications. My proficiency in both Python and JavaScript, coupled with my extensive experience working with various front-end and back-end frameworks and technologies, allows me to bring my ideas to life with ease.
+
+          While I initially pursued a degree in Finance from the University of Nairobi, I ultimately decided to transition into software development to follow my true passion. I attended a rigorous 6-month coding bootcamp at Code Fellows, where I honed my technical skills and gained invaluable experience in creating cutting-edge software solutions. Today, I am committed to leveraging my expertise and creativity to revolutionize the tech industry and create technologies that make a positive impact on people's lives.
         </p>
       </div>
     </motion.div>

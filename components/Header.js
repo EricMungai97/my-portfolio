@@ -26,9 +26,6 @@ export default function Header() {
           className="flex flex-row items-center">
           <SocialIcon url="https://www.linkedin.com/in/eric-kinuthia-488192187/" fgColor="gray" bgColor="transparent" />
           <SocialIcon url="https://github.com/EricMungai97" fgColor="gray" bgColor="transparent" />
-          <SocialIcon url="mungaikinus@gmail.com"
-            fgColor="gray"
-            bgColor="transparent" />
         </motion.div>
 
 
