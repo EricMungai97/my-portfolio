@@ -27,7 +27,7 @@ export default function About() {
         <h4 className="text-4xl font semibold">Here is a <span className="underline decoration-[#F7AB0A]/50">little</span>{" "} background</h4>
         <p className="text-base">Hello 👋, my name is Eric Kinuthia, and I am a full-stack software developer with a passion for creating innovative and dynamic web applications. My proficiency in both Python and JavaScript, coupled with my extensive experience working with various front-end and back-end frameworks and technologies, allows me to bring my ideas to life with ease.
 
-          While I initially pursued a degree in Finance from the University of Nairobi, I ultimately decided to transition into software development to follow my true passion. I attended a rigorous 6-month coding bootcamp at Code Fellows, where I honed my technical skills and gained invaluable experience in creating cutting-edge software solutions. Today, I am committed to leveraging my expertise and creativity to revolutionize the tech industry and create technologies that make a positive impact on people's lives.
+          While I initially pursued a degree in Finance from the University of Nairobi, I ultimately decided to transition into software development to follow my true passion. I attended a rigorous 6-month coding bootcamp at Code Fellows, where I honed my technical skills and gained invaluable experience in creating cutting-edge software solutions. Today, I am committed to leveraging my expertise and creativity to revolutionize the tech industry and create technologies that make a positive impact on peoples lives.
         </p>
       </div>
     </motion.div>
