@@ -36,7 +36,7 @@ export default function ExperienceCard() {
         </div>
         <p className="">09/01/2022 - 02/24/2023</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>completed a 6-month full-time coding bootcamp where I gained expertise in Node.js Next.js, React.js, Django, Tailwind CSS, and Express.js. and others. During this time, I created multiple full-stack web applications from scratch, utilizing these technologies to build dynamic, responsive, and user-friendly websites. My experience includes working with databases, APIs, and third-party libraries, as well as collaborating with a team of developers to ensure the projec success. Overall, my technical skills, combined with my passion for coding, have enabled me to develop web applications that meet the needs of various clients and users.</li>
+          <li>completed a 6-month full-time coding bootcamp where I gained expertise in Node.js Next.js, React.js, Django, Tailwind CSS, and Express.js. and others. During this time, I created multiple full-stack web applications from scratch, utilizing these technologies to build dynamic, responsive, and user-friendly websites. My experience includes working with databases, APIs, and third-party libraries, as well as collaborating with a team of developers to ensure the projec success. Overall, my technical skills, combined with my passion for coding have enabled me to develop web applications that meet the needs of various clients and users.</li>
           
         </ul>
       </div>
